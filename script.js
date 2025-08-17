@@ -13,6 +13,17 @@ fetch("header.html")
         navLinks.classList.toggle('show');
       });
     }
+
+    // Shrinking navbar on scroll (after header loaded)
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', function() {
+      if (!navbar) return;
+      if (window.scrollY > 50) {
+        navbar.classList.add('shrink');
+      } else {
+        navbar.classList.remove('shrink');
+      }
+    });
   })
   .catch(err => console.error("Error loading header:", err));
 

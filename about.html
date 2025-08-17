@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>About | After the Tribulation</title>
+  <link rel="icon" href="images/tab-icon.png" type="image/png">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mode_heat" />
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+
+    <div id="header-placeholder"></div>
+
+    <main>
+
+        <div class="about-hero">
+            <h1>About Carlos Saavedra</h1>
+            <br>
+            <h3>Welcome to my space.</h3>
+            <p> This is a space dedicated to exploring the riches of God’s Word with a special focus on the return of Jesus Christ after the tribulation. As a <em>born-again Christian</em> I' am deeply committed to spiritual growth, spiritual leadership, and soul winning as one of the fruits of a successful Christian life. I hold firmly to the conviction that accurate interpretation and faithful application of Scripture are essential for both personal growth and effective ministry.</p>
+        </div>
+
+        <section class="about-container">
+          <div class="image-wrapper">
+            <img src="images/me.JPEG" alt="Carlos Saavedra">
+          </div>
+          <br>
+          <br>
+          <p>In 1997, my life was forever changed when I was born again and surrendered my heart to Jesus Christ. From that moment, my deepest desire has been to know Him more and to help others discover the life-transforming power of His gospel. Over the past twenty years, the Lord has allowed me to serve in many areas of ministry—leading youth, pastoring, preaching, and training young ministers for the work of the Kingdom.</p>
+          <p>Along the way, I have been blessed to study the Scriptures from a Pentecostal Apostolic perspective, a foundation that has shaped my faith, sharpened my convictions, and ignited an unshakable passion for winning souls. Every step of this journey has been about one thing: lifting up the name of Jesus so that others may come to know Him.</p>
+          <h3>What diferentiates my work from others?</h3>
+          <p>My approach to biblical interpretation is rooted in a deep respect for the Scriptures, guided by the Holy Spirit and a commitment to sound doctrine.</p>
+           <ul class="about-list">
+            <li><span class="material-symbols-outlined">mode_heat</span>
+              <span><strong>I believe in the authority of the Bible.</strong> In times of theological confusion, and moral ambiguity, I begin with the <em>unchanging truth of Scripture</em>—allowing God’s Word to shape my view of society, never bending Scripture to fit society’s changing views.</span>
+            </li>
+            <li><span class="material-symbols-outlined">mode_heat</span>
+              <span><strong>I believe the Bible is the Word of God.</strong> <em>The Bible is the preeminent and paramount source of truth</em>, is right in what it claims, is accurate in its interpretation, and is true in its application, it does not contradict itself, and it has never been proven wrong.</span>
+            </li>
+            <li><span class="material-symbols-outlined">mode_heat</span>
+              <span><strong>I believe the Bible is a single, unified story woven together by God’s design.</strong> I am passionate about teaching its truth in a way that not only inspires but is also applicable and transforms how we live today.</span>
+            </li>
+            <li><span class="material-symbols-outlined">mode_heat</span>
+              <span><strong>I believe that the Church is the inaugurated Kingdom of God.</strong><em> The Church and the believer</em> is at the same place David was after being anointed King (1 Samuel 16:1). He did not have a royal title, or official position yet, nevertheless, David <em>"...behaved himself wisely"</em> (1 Samuel 18:5) during this time. The Church and the believer is found in the same place, a testing time to prove ourself to be faithful, and to build <em>His Kingdom.</em></span>
+            </li>
+            <li><span class="material-symbols-outlined">mode_heat</span>
+              <span><strong>The study of Eschatology is fascinating and Faith fueling.</strong> Others may use this subject to scare, or dismiss the Scriptures, I find it an excellent way to show the Scriptures are completely reliable from beginning to end.</span>
+            </li>
+           </ul>
+
+           <h3>Why Am I passionate about Eschatology?</h3>
+           <p>The initial spark in my spiritual journey toward understanding the "end-times" was ignited by childhood friends. Though their intentions were good, they misused “end-times” Scriptures, instilling fear in me as a means to draw me to their church. After having an encounter with the real Jesus, I strived to discover the truth about Eschatology and what Jesus intended for them.</p>
+        </section>
+
+
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        // Inject header.html
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('header-placeholder').innerHTML = data;
+            });
+
+        // Inject footer.html
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+
+  </body>
+
+</html>
